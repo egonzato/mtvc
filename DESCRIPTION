@@ -1,0 +1,24 @@
+Package: mtvc
+Type: Package
+Title: Multiple Counting Process Structure for Survival Analysis
+Version: 1.0.0
+Authors@R: 
+    person("Elia", "Gonzato", , "elia.gonzato@outlook.it", role = c("aut", "cre", "cph"))
+Maintainer: Elia Gonzato <elia.gonzato@outlook.it>
+Description: Counting process structure is fundamental to model time varying covariates.
+    This package restructures dataframes in the counting process format for one or more variables.
+    F. W. Dekker, et al. (2008) <doi:10.1038/ki.2008.328>.
+License: MIT + file LICENSE
+URL: https://github.com/egonzato/mtvc
+BugReports: https://github.com/egonzato/mtvc/issues
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Imports:
+    dplyr,
+    tidyr
+Depends: 
+    R (>= 2.10)
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
